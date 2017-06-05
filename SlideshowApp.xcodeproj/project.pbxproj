@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28118FDB1EE585EC003BC333 /* dawn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28118FD81EE585EC003BC333 /* dawn.jpg */; };
+		28118FDC1EE585EC003BC333 /* evening.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28118FD91EE585EC003BC333 /* evening.jpg */; };
+		28118FDD1EE585EC003BC333 /* morning.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 28118FDA1EE585EC003BC333 /* morning.jpg */; };
 		2853E87A1EDA4CC9001B9762 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2853E8791EDA4CC9001B9762 /* AppDelegate.swift */; };
 		2853E87C1EDA4CC9001B9762 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2853E87B1EDA4CC9001B9762 /* ViewController.swift */; };
 		2853E87F1EDA4CC9001B9762 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2853E87D1EDA4CC9001B9762 /* Main.storyboard */; };
 		2853E8811EDA4CC9001B9762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2853E8801EDA4CC9001B9762 /* Assets.xcassets */; };
 		2853E8841EDA4CC9001B9762 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2853E8821EDA4CC9001B9762 /* LaunchScreen.storyboard */; };
+		2853E8921EE19CB5001B9762 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2853E8911EE19CB5001B9762 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		28118FD81EE585EC003BC333 /* dawn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dawn.jpg; sourceTree = "<group>"; };
+		28118FD91EE585EC003BC333 /* evening.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = evening.jpg; sourceTree = "<group>"; };
+		28118FDA1EE585EC003BC333 /* morning.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = morning.jpg; sourceTree = "<group>"; };
 		2853E8761EDA4CC9001B9762 /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2853E8791EDA4CC9001B9762 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2853E87B1EDA4CC9001B9762 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,7 @@
 		2853E8801EDA4CC9001B9762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2853E8831EDA4CC9001B9762 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2853E8851EDA4CC9001B9762 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2853E8911EE19CB5001B9762 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,9 @@
 			children = (
 				2853E8781EDA4CC9001B9762 /* SlideshowApp */,
 				2853E8771EDA4CC9001B9762 /* Products */,
+				28118FD81EE585EC003BC333 /* dawn.jpg */,
+				28118FD91EE585EC003BC333 /* evening.jpg */,
+				28118FDA1EE585EC003BC333 /* morning.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +68,7 @@
 				2853E8791EDA4CC9001B9762 /* AppDelegate.swift */,
 				2853E87B1EDA4CC9001B9762 /* ViewController.swift */,
 				2853E87D1EDA4CC9001B9762 /* Main.storyboard */,
+				2853E8911EE19CB5001B9762 /* SecondViewController.swift */,
 				2853E8801EDA4CC9001B9762 /* Assets.xcassets */,
 				2853E8821EDA4CC9001B9762 /* LaunchScreen.storyboard */,
 				2853E8851EDA4CC9001B9762 /* Info.plist */,
@@ -123,8 +135,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28118FDC1EE585EC003BC333 /* evening.jpg in Resources */,
 				2853E8841EDA4CC9001B9762 /* LaunchScreen.storyboard in Resources */,
+				28118FDB1EE585EC003BC333 /* dawn.jpg in Resources */,
 				2853E8811EDA4CC9001B9762 /* Assets.xcassets in Resources */,
+				28118FDD1EE585EC003BC333 /* morning.jpg in Resources */,
 				2853E87F1EDA4CC9001B9762 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2853E8921EE19CB5001B9762 /* SecondViewController.swift in Sources */,
 				2853E87C1EDA4CC9001B9762 /* ViewController.swift in Sources */,
 				2853E87A1EDA4CC9001B9762 /* AppDelegate.swift in Sources */,
 			);
@@ -261,6 +277,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SlideshowApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.ryoichi.gokan.SlideshowApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +290,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SlideshowApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.ryoichi.gokan.SlideshowApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +317,7 @@
 				2853E88A1EDA4CC9001B9762 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
