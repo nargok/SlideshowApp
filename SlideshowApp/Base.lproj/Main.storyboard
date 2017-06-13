@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dawn" translatesAutoresizingMaskIntoConstraints="NO" id="zsj-bE-S8F" userLabel="landScapeImageView">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dawn.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zsj-bE-S8F" userLabel="landScapeImageView">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
@@ -128,6 +128,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="dawn" width="1067" height="1600"/>
+        <image name="dawn.jpg" width="1067" height="1600"/>
     </resources>
 </document>
